@@ -1,0 +1,17 @@
+.contacts-text {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    border: 2px solid #9A8265;
+    padding: 90px;
+    
+    background-color: black;
+    margin-top: 60px;
+}
+
+iframe {
+    margin-top: 120px;
+}

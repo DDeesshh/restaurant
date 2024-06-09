@@ -1,0 +1,55 @@
+/* Форма заявки */
+.form {
+    margin-top: 120px;
+}
+
+#form-h2 {
+    color: #9A8265;
+    border-bottom: 2px solid #9A8265;
+    width: 750px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+}
+
+#form-h2-book {
+    color: #9A8265;
+    border-bottom: 2px solid #9A8265;
+    width: 1000px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+}
+
+
+.li-form,
+#text,
+.button {
+    list-style-type: none;
+   
+}
+
+.application-form {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 0;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 363px;
+    padding: 30px 0px;
+    margin: 10px;
+    outline: none;
+    margin-right: 100px;
+
+}
+
+#text {
+    width: 1100px;
+    padding-left: 0;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: white;
+}

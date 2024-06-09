@@ -1,0 +1,65 @@
+/* О нас */
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.why-us {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#about-us-h2 {
+    color: #9A8265;
+    border-bottom: 2px solid #9A8265;
+    width: 260px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+}
+
+/* Почему мы? */
+#why-us-h2 {
+    color: #9A8265;
+    border-bottom: 2px solid #9A8265;
+    width: 550px;
+    padding-bottom: 6px;
+
+}
+
+.why-us,
+.img-why-us {
+    display: flex;
+    align-items: center
+}
+
+.why-us-1,
+.why-us-2,
+.why-us-3 {
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center
+}
+
+.why-us-text {
+    margin-left: 30px;
+}
+
+.show-menu {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-evenly;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.dish-1 {
+    transition: 1s;
+    width: 370px
+}
+
+.dish-1:hover {
+    transform: scale(1.3);
+}

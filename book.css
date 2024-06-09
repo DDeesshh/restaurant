@@ -1,0 +1,18 @@
+.add-info {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(./img/additional\ information.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 437px;
+    background-size: cover;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.visitors {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}

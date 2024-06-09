@@ -1,0 +1,63 @@
+.nav,
+.nav-button,
+li {
+    text-decoration: none;
+}
+
+.nav {
+    transition: 0.7s;
+}
+
+.nav:hover {
+
+    transition: 0.7s;
+    color: #9A8265;
+    border-bottom: 2px solid #9A8265;
+    padding: 20px;
+}
+
+.nav-button {
+
+    border: 2px solid #9A8265;
+    padding: 35px;
+    color: #9A8265;
+    transition: 0.7s;
+}
+
+.nav-button::before {
+
+    border: 2px solid #9A8265;
+    padding: 35px;
+    color: #9A8265;
+}
+
+.nav-button:hover {
+
+    background-color: #9A8265;
+    color: black;
+    transition: 0.7s;
+}
+
+.send {
+    border: 2px solid #9A8265;
+    padding: 40px;
+    color: #9A8265;
+    background-color: black;
+    transition: 0.7s;
+
+}
+
+.send:before {
+
+    border: 2px solid #9A8265;
+    padding: 60px;
+    color: #9A8265;
+}
+
+.send:hover {
+
+    background-color: #9A8265;
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}

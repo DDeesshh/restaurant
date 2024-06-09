@@ -1,0 +1,26 @@
+html {
+  scroll-behavior:smooth;
+  }
+
+body {
+  background: black;
+}
+
+.container {
+  width: 1460px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  width: 2px;
+}
+
+::selection {
+  color: #4d4234;;
+}

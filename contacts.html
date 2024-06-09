@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLD</title>
+    <link rel="stylesheet" type="text/css" href="contacts.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="general.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" type="text/css" href="button.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+
+<header id="page-3">
+
+    <div class="container menu">
+
+        <div class="main-page-head">
+            <img src="./img/GOLD.svg">
+            <nav>
+                <ul>
+                    <li class="li-head"><a class="nav" href="about institution.html"> О заведении</a></li>
+                        <li class="li-head"><a class="nav" href="menu.html">Меню</a></li>
+                        <li class="li-head"><a class="nav" href="#contacts.html" id="contacts.html">Контакты</a></li>
+                        <li class="li-head"><a class="nav-button" href="book.html"> Бронирование</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main-page-text">
+            <h1>Вкусно, доступно, эффектно</h1>
+            <p>Торопитесь? Принесем блюдо через 10 минут</p>
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section id="form" class="container">
+
+        <div class="form">
+            <h2 id="form-h2">Оставьте заявку</h2>
+            <p>Мы обязально свяжемся с Вами в течение дня</p>
+            <ul class="application-form">
+                <li class="li-form">
+                    <input type="name" id="name" name="user_name" placeholder="Ваше имя" required>
+                </li>
+                <li class="li-form">
+                    <input type="email" id="email" name="user_email" placeholder="Ваш e-mail" required>
+                </li>
+                <li class="li-form">
+                    <input type="tel" id="tel" name="user_tel" placeholder="Ваш телефон" required>
+                </li>
+            </ul>
+
+            <ul class="application-form">
+                <li class="li-form">
+                    <input type="text" id="text" name="user's_question" placeholder="Ваш вопрос" required>
+                </li>
+            </ul>
+            <ul class="application-form">
+                <li class="button">
+                    <button type="send" id="send" class="send" onclick="alerted();">Отправить</button>
+                </li>
+            </ul>
+            <script>
+                function alerted() {
+                    alert('Ваша заявка отправлена')
+                }
+            </script>
+
+        </div>
+
+    </section>
+
+    <section id="contacts-map" class="container">
+
+        <div class="contacts-text">
+            <p class="text">улица Арбат, 44с1</p>
+            <p class="text">+7 (700) 907-70-99</p>
+            <p class="text">gold@gmail.com</p>
+        </div>
+
+        </div>
+
+    </section>
+
+    <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae4a171fdd67a8fd564e55cef057af964ee3efd37213d667ce0c0271d45fa51b4&amp;source=constructor"
+        width="100%" height="520" frameborder="0">
+    </iframe>
+
+    <footer>
+
+        <div class=" menu">
+
+            <div class="main-page-head">
+                <img src="./img/GOLD.svg">
+                <nav>
+                    <ul>
+                        <li class="li-head"><a class="nav" href="about institution.html"> О заведении</a></li>
+                        <li class="li-head"><a class="nav" href="menu.html">Меню</a></li>
+                        <li class="li-head"><a class="nav" href="#contacts.html">Контакты</a></li>
+                        <li class="li-head"><a class="nav-button" href="book.html"> Бронирование</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="hours-of-work">
+                <p>ПН-ПТ: 09:00 - 22:00; СБ: 11:00 - 23:00; ВС: 11:00 - 23:00; Счастливые часы: 10:00 - 12:00
+                </p>
+            </div>
+
+    </footer>
+
+
+
+
+</main>
+</body>
+
+</html>

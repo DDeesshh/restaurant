@@ -1,0 +1,47 @@
+.menu {
+    justify-content: space-between;
+}
+
+.li-head {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+ul {
+    display: flex;
+}
+
+header {
+    background-image: url(./img/main\ page\ 1.png);
+    background-repeat: no-repeat;
+    height: 1010px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#page-2 {
+    background-image: url(./img/main\ page\ 2.png);
+}
+
+#page-3 {
+    background-image: url(./img/main\ page\ 3.png);
+}
+
+#page-4 {
+    background-image: url(./img/main\ page\ 4.png);
+}
+
+.main-page-head {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.main-page-text {
+    display: flex;
+    height: 1010px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+}

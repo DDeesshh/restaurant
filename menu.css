@@ -1,0 +1,76 @@
+.dish-p {
+    color: #9A8265;
+}
+
+.hot-dishes,
+.dessert-dishes,
+.salad-dishes {
+    display: flex;
+    margin-top: 60px;
+}
+
+.text-dish {
+    margin-left: 40px;
+}
+
+.text-dish-salad {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.salad-dishes {
+    justify-content: flex-end
+}
+
+.hot,
+.dessert,
+.salad {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-dish {
+    display: flex;
+    align-items: center;
+}
+
+.img-hot-dish,
+.img-dessert-dish,
+.img-salad-dish {
+    transition: 1s;
+}
+
+.img-hot-dish:hover,
+.img-dessert-dish:hover,
+.img-salad-dish:hover {
+    transform: scale(1.5);
+}
+
+#hot-h2 {
+    color: #9A8265;
+    border-bottom: 2px solid #9A8265;
+    width: 690px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+    margin-top: 120px;
+}
+
+#salad-h2 {
+    color: #9A8265;
+    border-bottom: 2px solid #9A8265;
+    width: 350px;
+    padding-bottom: 6px;
+    margin-top: 120px;
+    margin-left: 1110px;
+}
+
+#dessert-h2 {
+    color: #9A8265;
+    border-bottom: 2px solid #9A8265;
+    width: 400px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+    margin-top: 120px
+}

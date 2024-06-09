@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+p,
+h1,
+ul a,
+li,
+h2,
+input,
+button {
+    color: white;
+    font-family: 'Alice', serif;
+}
+
+p,
+li,
+a,
+input,
+button {
+    font-size: 32px;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 96px;
+}
+
+h3 {
+    color: #9A8265;
+    font-family: 'Alice', serif;
+}
